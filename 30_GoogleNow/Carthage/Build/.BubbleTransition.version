@@ -1,0 +1,18 @@
+{
+  "iOS" : [
+    {
+      "hash" : "2e088544ead5e95a2ccc8e0af932eec79a7fd1880e8704208af259cf567e4769",
+      "name" : "BubbleTransition"
+    }
+  ],
+  "commitish" : "2.0.2",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+
+  ]
+}
