@@ -49,10 +49,6 @@ class ViewController: UIViewController {
         trans2 = CATransform3DRotate(trans2, CGFloat(Double.pi), 0, 1, 0)
         v6.layer.transform = trans2
         
-//        trans = CATransform3DRotate(trans, angle, 0, 1, 0)
-//        trans = CATransform3DRotate(trans, angle, 1, 0, 0)
-//        containerV.layer.sublayerTransform = trans
-        
         let pan = UIPanGestureRecognizer(target: self, action: #selector(ViewController.handlePan(_:)))
         containerV.addGestureRecognizer(pan)
     }
